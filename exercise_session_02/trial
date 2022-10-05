@@ -1,0 +1,4 @@
+urrently Loaded Modules:
+  1) craype-x86-rome      4) perftools-base/21.12.0                 7) craype/2.7.13      10) cray-libsci/21.08.1.2
+  2) libfabric/1.15.0.0   5) xpmem/2.4.4-2.3_9.1__gff0e1d9.shasta   8) cray-dsmml/0.2.2   11) PrgEnv-cray/8.3.0
+  3) craype-network-ofi   6) cce/13.0.0                             9) cray-mpich/8.1.12
