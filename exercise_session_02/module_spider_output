@@ -1,0 +1,27 @@
+
+wing is a list of the modules and extensions currently available:
+--------------------------------------------------------------------------------------------------------------------
+  Amber: Amber/20-15-9
+
+  Ascent: Ascent/0.8.0
+    Ascent is an easy-to-use flyweight in situ visualization and analysis library for HPC simulations.
+
+  Boost: Boost/1.75.0-python3, Boost/1.75.0, Boost/1.78.0-python3, Boost/1.78.0
+    Boost provides free peer-reviewed portable C++ source libraries.
+
+  CDO: CDO/1.9.10
+    CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.
+
+  CMake: CMake/3.19.6, CMake/3.20.1, CMake/3.21.1, CMake/3.21.2, CMake/3.22.1
+    CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and
+    package software.
+
+  CP2K: CP2K/8.2.d0bd076, CP2K/8.2.69b8c2e, CP2K/9.1
+    CP2K is a freely available (GPL) program, written in Fortran 95, to perform atomistic and molecular simulations
+    of solid state, liquid, molecular and biological systems. It provides a general framework for different methods
+    such as e.g. density functional theory (DFT) using a mixed Gaussian and plane waves approach (GPW), and
+    classical pair and many-body potentials.
+
+  Charm++: Charm++/6.10.2
+    Charm++ is a machine independent parallel programming system. Programs written using this system will run
+    unchanged on MIMD machines with or without a shared memory.
