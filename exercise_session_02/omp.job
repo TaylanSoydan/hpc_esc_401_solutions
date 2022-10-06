@@ -5,11 +5,10 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-core=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=128
+#SBATCH --cpus-per-task=36
 #SBATCH --partition=debug
 #SBATCH --constraint=mc
 #SBATCH --hint=nomultithread
-
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
-
-srun hostname
+export CRAY_CUDA_MPS=1#
+srun cpi_omp
