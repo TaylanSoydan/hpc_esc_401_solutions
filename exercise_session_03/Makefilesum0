@@ -1,0 +1,7 @@
+sum0    : sum0.o gettime.o
+	  cc -o sum0 sum0.o gettime.o
+sum0.o  : sum.c gettime.h
+	  cc -O0 -ffast-math -c -o sum0.o sum.c
+gettime.o:gettime.c gettime.h
+
+clean:  rm -f sum0 sum.o gettime.o

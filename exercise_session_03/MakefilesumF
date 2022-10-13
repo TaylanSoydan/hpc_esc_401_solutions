@@ -1,0 +1,9 @@
+sump    : sump.o gettime.o
+	  cc -fopenmp -o sump sump.o gettime.o
+sump.o  : sum.c gettime.h
+	  cc -O3 -c -fopenmp -o sump.o sum.c
+gettime.o:gettime.c gettime.h
+
+clean:  rm -f sump sump.o gettime.o
+
+

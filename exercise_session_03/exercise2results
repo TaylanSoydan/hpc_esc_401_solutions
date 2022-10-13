@@ -1,0 +1,12 @@
+[eiger][tsoydan@uan01 exercise_session_03]$ ./sum0
+sum=10022429073.341873
+time elapsed=7.020584
+[eiger][tsoydan@uan01 exercise_session_03]$ ./sum1
+sum=10022429073.341873
+time elapsed=1.807072
+[eiger][tsoydan@uan01 exercise_session_03]$ ./sum2
+sum=10022429073.341873
+time elapsed=1.957719
+[eiger][tsoydan@uan01 exercise_session_03]$ ./sum3
+sum=10022429073.341873
+time elapsed=1.976443
