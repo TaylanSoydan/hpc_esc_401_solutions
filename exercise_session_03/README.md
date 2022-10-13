@@ -32,4 +32,4 @@ My job script is mpi.job and the code is cpi_mpi.c
 the speedup diminishes after 20 threads because the serial part bottlenecks the algorithm. A superlinear behavior is observed in a short interval but its a crude graph with few data points.
 
 Exercise 3:
-
+One main reason is the cache effect as when we parallelize not only number of processors change but also the accumulated cache changes. With larger cache more of the working set can fit and memory access time is reduced.
