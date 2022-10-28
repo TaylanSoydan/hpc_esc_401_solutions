@@ -44,7 +44,7 @@ void jacobi_step(params p, double** u_new, double** u_old, double** f){
 
     for (int i=1; i<p.nx - 1; i++){
         for (int j=1; j<p.ny - 1; j++){
-            u_new[i][j] = 1/4 * (u_old[i-1][j] + u_old[i][j-1] + u_old[i+1][j] + u_old[i][j+1] - 1/((p.nx)-1) * 1/((p.nx)-1) * f[i][j]);
+            u_new[i][j] = 1.0/4.0 * (u_old[i-1][j] + u_old[i][j-1] + u_old[i+1][j] + u_old[i][j+1] - 1.0/((double)(p.nx)-1) * 1.0/(double)((p.nx)-1) * f[i][j]);
         }
     }
 

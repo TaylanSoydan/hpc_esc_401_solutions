@@ -9,7 +9,7 @@ int main (int argc, char *argv[]){
     // Read the parameter file and store information in a params structure (defined in init.h)
     params p;
     readParameters(file_name, &p);
-
+    printf("hello");
     // Initialize the matrices used in the Jacobi iteration
     double **f, **u_old, **u_new;
 
@@ -29,8 +29,8 @@ int main (int argc, char *argv[]){
 
     // Compute differences and norm
     double diff = norm_diff(p, u_new, u_old);
-
-    // Initialize the Jacobi step conter
+   
+    // Initialize the Jacobi stepoter
     int nstep=1;
 
     // Main loop for the Jacobi iterations
