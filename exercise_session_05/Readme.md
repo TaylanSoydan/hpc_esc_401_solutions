@@ -33,5 +33,6 @@ ex2.cpp is the c++ solution.
 -It depends, one is a value and other is an adress so they may or may not be the same.
 
 Ex3:
+I got an error due to 1/N-1 syntax instead of 1.0 / double N -1, which I fixed on the latest commit and obtained the png.
 The png file is in the output folder.
 
