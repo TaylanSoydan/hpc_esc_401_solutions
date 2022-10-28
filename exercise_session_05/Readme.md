@@ -32,5 +32,6 @@ ex2.cpp is the c++ solution.
 
 -It depends, one is a value and other is an adress so they may or may not be the same.
 
-
+Ex3:
+The png file is in the output folder.
 
