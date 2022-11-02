@@ -27,6 +27,20 @@ Ex3:
 The algorithm has polynomial time complexity O(N^2). Can be justified due to the nested for loops and empirically yields linear graphs when the X axis is squared.
 
 
+The time complexity can be reduced with approximation schemes down to O(NLogN) or better, in the 
+
+cost of accuracy. One way is the tree methods such as Barnes Hut simulation, an octree is used 
+
+to divide the volume in cubic cells and only particles from nearby cells are treated 
+
+individually and the particles far away are treated collectively. This reduces the bodies. 
+
+Another way is the particle mesh method in which space is discretized and particles are assumed 
+
+to be divided between the surrounding vertices.
+
+
+
 
 
 
