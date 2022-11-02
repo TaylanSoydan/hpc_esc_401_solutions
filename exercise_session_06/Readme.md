@@ -42,6 +42,6 @@ to be divided between the surrounding vertices.
 
 
 
-
+Here line 1 corresponds to omp threads = 1 and 2 corresponds to 12 threads.
 
 ![Figure_1](https://user-images.githubusercontent.com/73917265/199523208-febd72ca-3cd4-4062-a69c-34b0b9ca1985.png)
