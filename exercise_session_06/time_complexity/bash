@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while test $# -gt 0
+	do
+		echo N = $1 >> result12.txt
+		echo $(OMP_NUM_THREADS=12 ./nbody $1) >>result12.txt	
+		shift
+	done
