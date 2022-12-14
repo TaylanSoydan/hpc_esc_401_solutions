@@ -30,11 +30,10 @@ int main(void) {
 	size_t size = NUM_BLOCK*NUM_THREAD*sizeof(double);  //Array memory size
 	sumHost = (double *)malloc(size);  //  Allocate array on host
 	cudaMalloc((void **) &sumDev, size);  // Allocate array on device
-   	double start = getTime();
 	
 	int j;
 	for (j=0;j<5;j++){
-	
+	double start = getTime();
 	// Initialize array in device to 0
 	cudaMemset(sumDev, 0, size);
 	// Do calculation on device
